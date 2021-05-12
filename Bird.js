@@ -8,7 +8,7 @@ class Bird{
   this.a.addImage(birdImg);
   this.a.scale=0.5;
   this.a.debug=true;
-  this.a.setCollider("circle",0,-15,10);
+  this.a.setCollider("circle",0,-15,100);
     }
 display(){
 if(keyDown("space") && this.a.y>200){
